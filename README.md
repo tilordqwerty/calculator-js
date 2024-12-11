@@ -1,4 +1,4 @@
-# A simple calculator.
+# A simple calculator :p.
 
 Made with HTML, CSS & JavaScript
 
