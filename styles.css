@@ -1,0 +1,99 @@
+/* Body and html */
+html{
+    box-sizing:border-box;
+    height: 100%;
+}
+
+body {
+  margin: 0;
+  width: 600px;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+/* Buttons */
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: #222222;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+input{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: #2e2d2d;
+    color: white;
+}
+
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: #2e2d2d;
+    color: white;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px; 
+    background-color: rgb(68, 67, 67);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(139, 138, 145);
+}
+
+button:active{
+    background-color: rgb(157, 156, 163);
+}
+
+/* Operator buttons */
+.operator-btn{
+  background-color: #f08c2f;
+}
+.operator-btn:hover{
+  background-color: #f19d4d;
+}
+
+.operator-btn:active{
+  background-color: #f5b77e;
+}
+
+/* Classes */
+.container {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
