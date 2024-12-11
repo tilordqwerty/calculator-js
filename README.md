@@ -1,4 +1,6 @@
-# A simple calculator. Made with HTML, CSS & JavaScript
+# A simple calculator.
+
+Made with HTML, CSS & JavaScript
 
 site link:
 
