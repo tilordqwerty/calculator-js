@@ -85,7 +85,7 @@ button:active{
 /* Classes */
 .container {
     width: 100%;
-    max-width: 100%;
+    max-width:100%;
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     padding: 20px;
     border-radius: 7px;
