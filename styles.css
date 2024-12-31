@@ -84,9 +84,13 @@ button:active{
 
 /* Classes */
 .container {
-    position: relative;
-    border: 3px solid green;
-  }
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;  
+}
   
   .center {
     margin: 0;
